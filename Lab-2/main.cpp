@@ -19,10 +19,15 @@ private:
     const static int MAX_ROW = 10;
     const static int MAX_COL = 10;
     int SIZE = MAX_ROW * MAX_COL;
-    const char SPACE = '.';
+    const char EMPTY_SPACE = '.';
     const char TRAP = 'T';
-    const char PLAYER = '@';
     const char TREASURE = '$';
+    const char PLAYER = '@';
+    // Array to hold X && Y coordinates of player.
+    int PLAYER_PREV_POS[2];
+    int PLAYER_POS[2];
+    int SCORE = 0;
+    char prevFrame[MAX_ROW][MAX_COL];
 
     char dungeonBoard[MAX_ROW][MAX_COL];
 
@@ -51,46 +56,165 @@ public:
     }
 
     void drawBoard() {
-        // Draw X coordinate.
-        for (int i = 0; i < MAX_ROW; ++i)
-            // Draw Y coordinate.
-            for (int j = 0; j < MAX_COL; ++j)
-                cout << dungeonBoard[i][j];
+        // Draw Y coordinate.
+        for (int y = 0; y < MAX_COL; ++y) {
+            // Draw X coordinate.
+            for (int x = 0; x < MAX_ROW; ++x)
+                cout << dungeonBoard[x][y];
             /// Newline between rows.
             cout << "\n";
-        cout << endl;
+        }
+        // Flush buffer to Console.
+        cout.flush();
     }
 
     // x is the column, y is the row. The origin (0,0) is top-left.
-    void setCursorPosition(int x, int y)
-    {
+    void setCursorPosition(int x, int y) {
         static const HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
         std::cout.flush();
-        COORD coord = { (SHORT)x, (SHORT)y };
+        COORD coord = {(SHORT) x, (SHORT) y};
         SetConsoleCursorPosition(hOut, coord);
     }
 
-    void updateFrame(){
-        char prevFrame[MAX_ROW][MAX_COL];
-        std::memset((char*)prevFrame, 0, MAX_ROW * MAX_COL);
+    void setMove(char &input) {
 
-// ...
+        // Copy the Players Previous location (so we can later fill it with empty space).
+        for (int i=0; i < 2; ++i)
+            PLAYER_PREV_POS[i] = PLAYER_POS[i];
 
-        for (int y = 0; y != MAX_COL; ++y)
-        {
-            for (int x = 0; x != MAX_ROW; ++x)
-            {
+        // Move the player up/down/left/right depending on key press.
+        switch (input){
+            case 'W':
+                PLAYER_POS[1] -= 1;
+                break;
+            case 'A':
+                PLAYER_POS[0] -= 1;
+                break;
+            case 'S':
+                PLAYER_POS[1] += 1;
+                break;
+            case 'D':
+                PLAYER_POS[0] += 1;
+        }
+
+        if (dungeonBoard[PLAYER_POS[0]][PLAYER_POS[1]] == TRAP)
+            gameOver();
+        else if (dungeonBoard[PLAYER_POS[0]][PLAYER_POS[1]] == TREASURE)
+            ++ SCORE;
+        else {
+            // Move the player.
+            dungeonBoard[PLAYER_POS[0]][PLAYER_POS[1]] = PLAYER;
+            // Replace previous position to be empty.
+            dungeonBoard[PLAYER_PREV_POS[0]][PLAYER_PREV_POS[1]] = EMPTY_SPACE;
+        }
+    }
+
+    void gameOver(){
+        cout << "You stepped on a bear trap and starved to death. GAME OVER" << endl;
+
+    }
+
+    void getMove() {
+        char userInput = ' ';
+        bool VALID = false;
+
+        do {
+            cout << "Move your character (@) using (W,A,S,D)" << endl;
+            cin >> userInput;
+
+            userInput = toupper(userInput);
+
+            if (cin.fail()) {
+                cout << "That is not a valid entry!" << endl;
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            } else if (userInput == 'W' ||
+                       userInput == 'A' ||
+                       userInput == 'S' ||
+                       userInput == 'D') {
+                VALID = true;
+                setMove(userInput);
+            }
+
+
+//            // Validate the inputs.
+//            switch(userInput){
+//                case 'w': setMove(userInput); VALID=true; break;
+//                case 'a': setMove(userInput); VALID=true; break;
+//                case 's': setMove(userInput); VALID=true; break;
+//                case 'd': setMove(userInput); VALID=true; break;
+//            }
+        } while (!VALID);
+    }
+
+    void drawFrame() {
+        // Display the first frame, then update any following frames.
+    }
+
+    void cls() {
+        // Get the Win32 handle representing standard output.
+        // This generally only has to be done once, so we make it static.
+        static const HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+
+        // Type-def Get Console Buffer Info
+        CONSOLE_SCREEN_BUFFER_INFO csbi;
+
+        // Type-def Get/SET a Coordinate Position
+        COORD topLeft = {0, 0};
+
+        // std::cout uses a buffer to batch writes to the underlying console.
+        // We need to flush that to the console because we're circumventing
+        // std::cout entirely; after we clear the console, we don't want
+        // stale buffered text to randomly be written out.
+        cout.flush();
+
+//        // Fof the consigure out the current width and height ole window
+//        if (!GetConsoleScreenBufferInfo(hOut, &csbi)) {
+//            // TODO: Handle failure!
+//            abort();
+//        }
+        DWORD length = csbi.dwSize.X * csbi.dwSize.Y;
+
+        DWORD written;
+
+        // Flood-fill the console with spaces to clear it
+        FillConsoleOutputCharacter(hOut, TEXT(' '), length, topLeft, &written);
+
+        // Reset the attributes of every character to the default.
+        // This clears all background colour formatting, if any.
+        FillConsoleOutputAttribute(hOut, csbi.wAttributes, length, topLeft, &written);
+
+        // Move the cursor back to the top left for the next sequence of writes
+        SetConsoleCursorPosition(hOut, topLeft);
+    }
+
+    void updateFrame() {
+//        std::memset((char*)prevFrame, 0, MAX_ROW * MAX_COL);
+
+        // Display the Board state if frame has changed.
+        for (int y = 0; y != MAX_COL; ++y) {
+            for (int x = 0; x != MAX_ROW; ++x) {
                 if (dungeonBoard[x][y] == prevFrame[x][y]) {
                     continue;
                 }
+                // Move Cursor to position to update
                 setCursorPosition(x, y);
-                std::cout << dungeonBoard[x][y];
+                // Push updated character to position.
+                cout << dungeonBoard[x][y];
             }
-            cout << "\n";
         }
-        cout << "\n";
-        std::cout.flush();
-        std::memcpy((char*)prevFrame, (char const*)dungeonBoard, MAX_ROW * MAX_COL);
+
+        // Flush to display updated output.
+        cout.flush();
+//        std::memcpy((char *) prevFrame, (char const *) dungeonBoard, MAX_ROW * MAX_COL);
+    }
+
+    void saveFrame(){
+        // Copy the Board.
+        for (int y = 0; y < MAX_COL; ++y) {
+            for (int x = 0; x < MAX_ROW; ++x)
+                prevFrame[x][y] = dungeonBoard[x][y];
+        }
     }
 
 
@@ -101,9 +225,11 @@ public:
         // Fill the Board with empty spaces.
         for (int i = 0; i < MAX_ROW; ++i)
             for (int j = 0; j < MAX_COL; ++j)
-                dungeonBoard[i][j] = SPACE;
-        // Place the PLAYER at a random location at the start of the game.
-        dungeonBoard[getRandomNumber()][getRandomNumber()] = PLAYER;
+                dungeonBoard[i][j] = EMPTY_SPACE;
+        // Place the PLAYER at a random location at the start of the game:
+        PLAYER_POS[0] = getRandomNumber();  // Store the random X coordinate of the player.
+        PLAYER_POS[1] = getRandomNumber();  // Store the random Y coordinate of the player.
+        dungeonBoard[PLAYER_POS[0]][PLAYER_POS[1]] = PLAYER;    // Place the player at the X/Y POS coordinates.
         // Place a Random Quantity of Traps && Treasure (0-9) on the board.
         for (int i = 0; i < getRandomNumber(); ++i) {
             // Get Random Locations on the board
@@ -148,12 +274,6 @@ public:
         cout << "Displaying the dungeon" << endl;
     }
 
-    // get a valid move (L,R,U,D)
-    char getMove() {
-        cout << "Getting a move, returning UP for debug" << endl;
-        return ' ';
-    }
-
     // sees if move is onto checkCode object
     bool checkMove() {
         cout << "Checking move for stepping on " << "checkCode" << endl;
@@ -182,23 +302,29 @@ int main() {
     Game.displayInstructions();
     Game.initDungeon();
 
-
-    // Step through with a debugger, or insert sleeps, to see the effect.
-//    Game.setCursorPosition(10, 5);
-//    cout << "CHEESE";
-//    Game.setCursorPosition(10, 5);
-//    std::cout << 'W';
-//    Game.setCursorPosition(10, 9);
-//    std::cout << 'Z';
-//    Game.setCursorPosition(10, 5);
-//    std::cout << "     ";  // Overwrite characters with spaces to "erase" them
-//    std::cout.flush();
+    Game.drawBoard();
+    Game.cls();
 
     while (PLAYING) {
         /// https://stackoverflow.com/questions/34842526/update-console-without-flickering-c
-        
 
-        // Draw the board.
+        // Save the Frame State.
+        Game.saveFrame();
+
+        // Get the player's move. (also SETS player MOVE).
+        Game.getMove();
+
+        // Draw the board (deprecated).
+//        Game.drawBoard();
+
+        // Clear output Buffer.
+        Game.cls();
+
+        cout << endl;
+
+        Game.drawBoard();
+
+        // update the displayed frame.
         Game.updateFrame();
 
     }
