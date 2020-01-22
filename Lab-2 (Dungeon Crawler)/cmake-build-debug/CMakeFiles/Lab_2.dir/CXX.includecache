@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-2/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Windows.h
+-
+conio.h
+-
+limits
+-
+

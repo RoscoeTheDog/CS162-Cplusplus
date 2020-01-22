@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/fps game/main.cpp
+iostream
+-
+vector
+-
+utility
+-
+algorithm
+-
+chrono
+-
+math.h
+-
+stdio.h
+-
+Windows.h
+-
+
