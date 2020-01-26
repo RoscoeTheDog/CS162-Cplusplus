@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-2/main.cpp
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-2 (Dungeon Crawler)/main.cpp
 iostream
 -
 cstdlib
@@ -18,5 +18,9 @@ Windows.h
 conio.h
 -
 limits
+-
+termios.h
+-
+unistd.h
 -
 
