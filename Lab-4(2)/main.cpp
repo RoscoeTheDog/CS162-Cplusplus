@@ -118,14 +118,14 @@ bool searchBinary(T *pT, float length, T value, float bottom = 0.f) {
     if (bottom > length ||
         bottom == length)
         return false;
-        // Check if middle point has determined the correct value.
+    // Check if middle point has determined the correct value.
     else if (*(pT + middle) == value)
         return true;
-        // Check if middle point is smaller than the value.
+    // Check if middle point is smaller than the value.
     else if ((*(pT + middle)) < value)
         // Increase the bottom range by the mean of the top and bottom.
         bottom = (bottom + length) / 2;
-        // Check if middle point is greater than the value.
+    // Check if middle point is greater than the value.
     else if (*(pT + middle) > value)
         // Divide the length in half each recursive call.
         length /= 2;
