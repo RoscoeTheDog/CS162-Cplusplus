@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 #include <ctime>
+#include <limits>
+#include <conio.h>
 
 // Random number generator function.
 // Returns 1-99.
@@ -51,7 +53,7 @@ T *createArray(int length) {
 // Swap Values *helper* function (sortArray).
 // Used to switch indices in the array while sorting.
 // Originally modified to accept a typename.
-template <typename T>
+template<typename T>
 void swapValues(T *x, T *y) {
 //  Credits:
 //      Originally sourced from https://www.geeksforgeeks.org/selection-sort/
@@ -108,24 +110,21 @@ void printArray(T arr[], const int length) {
 // a value to search,
 // and an optional value for the minimum range (defaults to 0).
 template<typename T>
-bool searchBinary(T *pT, float length, T value, float bottom = 0.f) {
-    // For dereference the pointer, we'll use a truncated Int type.
-    // Otherwise, use floats to calculate mean range to prevent an endless cycle.
-    // Ex. (18[bot] + 19[max]) / 2 = 18.5 => truncated into 18, results in endless cycle.
+bool searchBinary(T *pT, int length, T value, int bottom = 0.f) {
+    // Current pointer index value, declared ahead of time for readability convenience.
     unsigned middle = static_cast<int>(bottom + length) / 2;
-
     // Check the bottom/length to see if they are out of bounds.
     if (bottom > length ||
         bottom == length)
         return false;
-        // Check if middle point has determined the correct value.
+    // Check if middle point has determined the correct value.
     else if (*(pT + middle) == value)
         return true;
-        // Check if middle point is smaller than the value.
+    // Check if middle point is smaller than the value.
     else if ((*(pT + middle)) < value)
         // Increase the bottom range by the mean of the top and bottom.
-        bottom = (bottom + length) / 2;
-        // Check if middle point is greater than the value.
+        bottom = (++bottom + length) / 2;
+    // Check if middle point is greater than the value.
     else if (*(pT + middle) > value)
         // Divide the length in half each recursive call.
         length /= 2;
@@ -149,8 +148,21 @@ int main() {
     selectionSort<int>(ptr, arraySize);
     // Print the array to stdout.
     printArray<int>(ptr, arraySize);
-    // Perform a binary search && display whether found (true or false).
-    std::cout << searchBinary<int>(ptr, arraySize - 1, 99);
+    // Prompt user for a value to check in the array (3x)
+    for (int i = 0; i < 3; ++i)
+        // Display whether true or false after prompting user for input for a value.
+        if (searchBinary<int>(ptr, arraySize, promptGetUserInput<int>("Search for value: ")))
+            std::cout << "True" << std::endl;
+        else
+            std::cout << "False" << std::endl;
+
+    // Exit.
+    if (_WIN32)
+        system("pause");
+    else{
+        std::cout << "Press any key to exit," << std::endl;
+        getch();
+    }
 
     return 0;
 }
