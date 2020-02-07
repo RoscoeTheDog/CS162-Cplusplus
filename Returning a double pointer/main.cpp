@@ -12,48 +12,59 @@ int **returnDblPt(const int x, const int y){
     return arrayOfPt;
 }
 
-struct link{
+
+
+
+
+
+
+
+
+
+
+
+
+// 'node' is the object that will hold an arbitrary value and the address of the next subsequent node.
+struct node{
     int value;
-    link *next;
+    node *next;
 
 
-    int age = 0;
-    float income = 23000.25;
-    std::string name = "John Doe";
+//    int age = 0;
+//    float income = 23000.25;
+//    std::string name = "John Doe";
 };
 
-link * addHead(link *head, int value);
-
-
-link * addHead(link *head, int value) {
-    link * temp = new link;
-    (*temp).value = value;
-    temp->next = head;
-    head = temp;
-    return head;
+// appendNode will accept a header and value
+// create a new node object with a variable pointing to it,
+// assign new values by dereferencing the pointer,
+// then return the header (address) of the parent node.
+node * appendNode(node *header, int value) {
+    node * location = new node;
+    (*location).value = value;
+    (*location).next = header;
+    return location;
 }
 
-bool find(link *head, int value){
-    link *ptr = head;
+bool find(node *head, int value){
 
-    while (ptr != nullptr){
-        if ((*ptr).value == 2)
+    while (head != nullptr){
+        if ((*head).value == value)
             return true;
         else
-            ptr = (*ptr).next;
-    };
+            head = (*head).next;
+    }
+    return false;
 }
-
 
 int main() {
 
-    link *head = nullptr;
+    node *header = nullptr;
 
     for (int i=0; i<4; ++i)
-        head = addHead(head, i*2+1);
+        header = appendNode(header, i * 2 + 1);
 
-
-    find(head, 5);
+    std::cout << find(header, 5) << std::endl;
 
     return 0;
 }

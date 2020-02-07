@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5/main.cpp
+C:/Users/Admin/Documents/Github/C++/CS162C+/Returning a double pointer/main.cpp
 iostream
 -
 string
--
-limits
--
-time.h
--
-cstdlib
 -
 

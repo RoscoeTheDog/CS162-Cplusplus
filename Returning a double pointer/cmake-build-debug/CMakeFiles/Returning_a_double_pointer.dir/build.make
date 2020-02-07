@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Returning_a_double_pointer.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Returning_a_double_pointer.dir/flags.make
 
 CMakeFiles/Returning_a_double_pointer.dir/main.cpp.obj: CMakeFiles/Returning_a_double_pointer.dir/flags.make
 CMakeFiles/Returning_a_double_pointer.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Returning_a_double_pointer.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Returning_a_double_pointer.dir\main.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Returning_a_double_pointer.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Returning_a_double_pointer.dir\main.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\main.cpp"
 
 CMakeFiles/Returning_a_double_pointer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Returning_a_double_pointer.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\main.cpp" > CMakeFiles\Returning_a_double_pointer.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\main.cpp" > CMakeFiles\Returning_a_double_pointer.dir\main.cpp.i
 
 CMakeFiles/Returning_a_double_pointer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Returning_a_double_pointer.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\main.cpp" -o CMakeFiles\Returning_a_double_pointer.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\main.cpp" -o CMakeFiles\Returning_a_double_pointer.dir\main.cpp.s
 
 # Object files for target Returning_a_double_pointer
 Returning_a_double_pointer_OBJECTS = \
@@ -81,7 +81,7 @@ Returning_a_double_pointer.exe: CMakeFiles/Returning_a_double_pointer.dir/build.
 Returning_a_double_pointer.exe: CMakeFiles/Returning_a_double_pointer.dir/linklibs.rsp
 Returning_a_double_pointer.exe: CMakeFiles/Returning_a_double_pointer.dir/objects1.rsp
 Returning_a_double_pointer.exe: CMakeFiles/Returning_a_double_pointer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Returning_a_double_pointer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Returning_a_double_pointer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Returning_a_double_pointer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/Returning_a_double_pointer.dir/clean:
 .PHONY : CMakeFiles/Returning_a_double_pointer.dir/clean
 
 CMakeFiles/Returning_a_double_pointer.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Returning a double pointer\cmake-build-debug\CMakeFiles\Returning_a_double_pointer.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer" "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer" "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Returning a double pointer\cmake-build-debug\CMakeFiles\Returning_a_double_pointer.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Returning_a_double_pointer.dir/depend
 
