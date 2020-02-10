@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled1/main.cpp
+C:/Users/Admin/Documents/Github/C++/CS162C+/untitled1/main.cpp
 iostream
 -
 string
@@ -16,5 +16,9 @@ limits
 time.h
 -
 cstdlib
+-
+vector
+-
+iomanip
 -
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab 4 Notes (Pointers)/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab 4 Notes (Pointers)/cmake-build-debug/CMakeFiles/Lab_4_Notes__Pointers_.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 4 Notes (Pointers)/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 4 Notes (Pointers)/cmake-build-debug/CMakeFiles/Lab_4_Notes__Pointers_.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,7 +1,18 @@
 #include <iostream>
 
+
+int * test(int variable){
+    int * ptr = &variable;
+    return ptr;
+}
+
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
+
+    int *ptr2 = test(4);
+
+    std::cout << *(ptr2) << std::endl;
 
     // A and B are two variables that hold a place in memory.
     int a = 6;
