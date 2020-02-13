@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 Redo/main.cpp
+iostream
+-
+string
+-
+cstdio
+-
+time.h
+-
+

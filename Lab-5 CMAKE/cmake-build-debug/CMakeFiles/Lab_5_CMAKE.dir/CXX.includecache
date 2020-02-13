@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 CMAKE/main.cpp
+iostream
+-
+string
+-
+limits
+-
+time.h
+-
+cstdlib
+-
+vector
+-
+iomanip
+-
+
