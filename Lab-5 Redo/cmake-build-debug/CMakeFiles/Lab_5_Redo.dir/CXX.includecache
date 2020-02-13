@@ -6,13 +6,39 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 Redo/main.cpp
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Board.cpp
 iostream
--
-string
 -
 cstdio
 -
-time.h
+ctime
+-
+string
+-
+iomanip
+-
+cmath
+-
+Board.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Board.h
+Card.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.h
+Card.cpp
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.cpp
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Board.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.cpp
+string
+-
+Card.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/main.cpp
+Board.cpp
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Board.cpp
+iostream
 -
 

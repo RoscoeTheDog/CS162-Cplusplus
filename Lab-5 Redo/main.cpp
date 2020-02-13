@@ -1,11 +1,17 @@
-#include "MemoryGame.h"
-
+#include "Board.cpp"
+#include <iostream>
 
 int main() {
-    MemoryGame Game;
+    Board Game;
 
-    Game.hideCards();
+//    for (int i=0; i < 100; ++i){
+//        std::cout << Board::getRandom(13) << std::endl;
+//    }
+
+    Game.setBoard();
     Game.displayBoard();
+    std::cout << std::endl;
+    Game.revealBoard();
 
     return 0;
 }

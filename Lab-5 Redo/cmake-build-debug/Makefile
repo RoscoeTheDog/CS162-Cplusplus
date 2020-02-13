@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 Redo"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 Redo\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo\cmake
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo\cmake-build-debug\CMakeFiles" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 Redo\cmake-build-debug\CMakeFiles" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 Redo\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 Redo\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 Redo\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ Lab_5_Redo/fast:
 	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/build
 .PHONY : Lab_5_Redo/fast
 
+Board.obj: Board.cpp.obj
+
+.PHONY : Board.obj
+
+# target to build an object file
+Board.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Board.cpp.obj
+.PHONY : Board.cpp.obj
+
+Board.i: Board.cpp.i
+
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Card.obj: Card.cpp.obj
+
+.PHONY : Card.obj
+
+# target to build an object file
+Card.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Card.cpp.obj
+.PHONY : Card.cpp.obj
+
+Card.i: Card.cpp.i
+
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab_5_Redo.dir\build.make CMakeFiles/Lab_5_Redo.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Lab_5_Redo
 	@echo ... edit_cache
+	@echo ... Board.obj
+	@echo ... Board.i
+	@echo ... Board.s
+	@echo ... Card.obj
+	@echo ... Card.i
+	@echo ... Card.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

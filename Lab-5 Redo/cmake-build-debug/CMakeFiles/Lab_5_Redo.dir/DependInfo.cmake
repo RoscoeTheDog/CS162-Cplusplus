@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 Redo/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 Redo/cmake-build-debug/CMakeFiles/Lab_5_Redo.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Board.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/cmake-build-debug/CMakeFiles/Lab_5_Redo.dir/Board.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/Card.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/cmake-build-debug/CMakeFiles/Lab_5_Redo.dir/Card.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 Redo/cmake-build-debug/CMakeFiles/Lab_5_Redo.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

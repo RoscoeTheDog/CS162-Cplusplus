@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lab_5_Redo.dir/Board.cpp.obj"
+  "CMakeFiles/Lab_5_Redo.dir/Card.cpp.obj"
   "CMakeFiles/Lab_5_Redo.dir/main.cpp.obj"
   "Lab_5_Redo.exe"
   "Lab_5_Redo.exe.manifest"

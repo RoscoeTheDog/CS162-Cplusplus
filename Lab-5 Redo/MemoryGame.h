@@ -12,10 +12,10 @@
 
 #endif //LAB_5_REDO_MEMORYGAME_H
 
-// TODO: Change 'MemoryGame' to 'Board'.
-class MemoryGame {
+// TODO: Change 'Board' to 'Board'.
+class Board {
 private:
-    std::string CARDS[13] = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K",};
+    std::string CARD_TYPES[13] = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K",};
     int boardWidth;
     int boardHeight;
     Card **board = nullptr;
@@ -29,7 +29,7 @@ public:
 
     // Default constructor that initializes default size of 6x6. Can pass parameters
     // to make a bigger board.
-    MemoryGame(int x = 6, int y = 6) {
+    Board(int x = 6, int y = 6) {
         // Init and SET variables from passed args.
         boardWidth = x;
         boardHeight = y;
@@ -52,7 +52,7 @@ public:
             for (int x = 0; x < boardWidth; ++x)
             {
                 Card newCard;
-                newCard.VALUE = CARDS[getRandom()];
+                newCard.VALUE = CARD_TYPES[getRandom()];
                 newCard.CORD_X = getRandom();
                 newCard.CORD_Y = getRandom();
 

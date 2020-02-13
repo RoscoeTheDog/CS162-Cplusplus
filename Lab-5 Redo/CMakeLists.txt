@@ -3,4 +3,4 @@ project(Lab_5_Redo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Lab_5_Redo main.cpp Card.h MemoryGame.h)
+add_executable(Lab_5_Redo main.cpp Card.h MemoryGame.h Board.cpp Board.h Card.cpp)
