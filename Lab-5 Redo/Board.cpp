@@ -11,13 +11,11 @@
 
 #include "Board.h"
 #include "Card.h"
-#include "Card.cpp" // Need to include cpp as well. Compiler needs definition to properly allocate space.
 
 
 class Board {
 private:
     std::string CARD_TYPES[13] = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K",};
-    bool DEPLOYED[13];
 
     int boardWidth;
     int boardHeight;
@@ -34,11 +32,6 @@ public:
     // to make a bigger board.
     Board(int x = 6, int y = 6) {
 
-        // Reset our validation list for all deployed cards to false.
-        for (int i = 0; i < sizeof(DEPLOYED) / sizeof(bool); ++i) {
-            DEPLOYED[i] = false;
-        }
-
         // Set variables from passed args.
         boardWidth = x;
         boardHeight = y;
@@ -51,98 +44,63 @@ public:
 
         // Create a new char array for each X row...
         for (int i = 0; i < boardHeight; ++i)
-            *(board + i) = new Card[boardWidth];
+            board[i] = new Card[boardWidth];
 
     }
 
     void setBoard() {
-
+        // Fill the board with empty cards first.
         for (int y = 0; y < boardHeight; ++y) {
             for (int x = 0; x < boardWidth; ++x) {
+                // Create new dumby card.
+                Card dumbyCard;
+                // Set value to 0.
+                dumbyCard.VALUE = "0";
+                // Insert on the board.
+                board[x][y] = dumbyCard;
+            }
+        }
+
+        // Fill the board with pairs of cards.
+        for (int c = 0; c < sizeof(CARD_TYPES) / sizeof(CARD_TYPES[0]); ++c) {
+            for (int p = 0; p < 2; ++p) {
                 // Create a new Card object.
                 Card newCard;
-
-                // Generate a card value. Keep doing so if greater than number of specified pairs (2).
-                do {
-                    newCard.VALUE = CARD_TYPES[getRandom(13)];
-                } while (quantityExists(newCard.VALUE, 2) && !isDeployed());    // Also check if all cards already deployed, to prevent endless loop.
-
-                // If all valid cards are deployed, fill the remaining slots with dumby cards.
-                if (isDeployed())
-                    newCard.VALUE = "0";
-
+                // Assign a value.
+                newCard.VALUE = CARD_TYPES[c];
                 // Generate a random x/y coordinate. Keep doing so until valid.
                 do {
                     newCard.CORD_X = getRandom(6);
                     newCard.CORD_Y = getRandom(6);
-                } while (coordOccupied(newCard.CORD_X, newCard.CORD_Y));
+                } while (coordOccupied(newCard.CORD_X,
+                                       newCard.CORD_Y)); // Check if coordinate is occupied by a valid card already.
 
-                // Place the Card on the board.
-                board[x][y] = newCard;
+                board[newCard.CORD_X][newCard.CORD_Y] = newCard;
             }
         }
     }
 
-    // Helper function that checks for each card types deployment status.
-    bool isDeployed() {
-        for (bool i : DEPLOYED)
-            if (!i)
-                return false;
-        return true;
+    // Validation check to see if card contains a card that is not a dumby card.
+    bool coordOccupied(const int x, const int y) {
+        Card c = board[x][y];
+        return (c.VALUE != "0");
     }
 
-    // Helper function that checks if number of specified card types already exist on the board.
-    bool quantityExists(const std::string &type, const int q) {
+    void checkMoves(const Card& move1, const Card& move2){
+        Card c1 = board[move1.CORD_X][move1.CORD_Y];
+        Card c2 = board[move2.CORD_X][move2.CORD_Y];
 
-        int flagged = 0;
-        for (int y = 0; y < boardHeight; ++y)
-            for (int x = 0; x < boardWidth; ++x) {
-                // Pull the card from the cell on the board.
-                Card c = board[x][y];
-
-                // Perform a comparison check on coordinates.
-                if (type == c.VALUE)
-                    flagged++;
-
-                // Stuck in loop if board size is > number of total pairs of cards...
-                // FLAG the deploy card once validated it's deployed (based on ID index value).
-                if (flagged >= q)
-                    // String "j" "q" "k" cannot be used to index DEPLOYED array.
-                    // Instead iterate through list of CARD_TYPES, find what =='d our flag, then use that iterator to index the DEPLOYED array.
-                    for (int i = 0; i < sizeof(CARD_TYPES) / sizeof(CARD_TYPES[0]); ++i)
-                        if (c.VALUE == CARD_TYPES[i])
-                            DEPLOYED[i] = true;
-            }
-        // Finally, exit.
-        return (flagged >= q);
+        if (c1.VALUE == c2.VALUE)
+        {
+            // Keep SHOWING, but fill with empty space to indicate it's removed from the board.
+            c1.VALUE = " ";
+            c2.VALUE = " ";
+        }
     }
 
-    bool coordOccupied(const int row, const int column) {
-
-        for (int y = 0; y < boardHeight; ++y)
-            for (int x = 0; x < boardWidth; ++x) {
-                // Pull the card from the cell on the board.
-                Card c = board[x][y];
-
-                // TODO: Fix the infinite loop.
-                // We need to check and see if the last coordinate is not 0,0 to prevent infinite loop.
-                // We also need to check for the quantity of dumby cards on the board, since we are inserting cards based on the exact total size of the board.
-                if (isDeployed() &&
-                    quantityExists(static_cast<std::string>("0"),
-                                   (boardWidth * boardHeight - ( sizeof(CARD_TYPES) / sizeof(CARD_TYPES[0]) ) * 2 - 1) // Total game cells - amount of card types * pair (2) - 1 (last remaining blank).
-                                    )   &&
-                    row == 0 &&
-                    column == 0
-                    )
-                        return false;
-
-                // Perform a comparison check on coordinates.
-                if (row == c.CORD_X && column == c.CORD_Y)
-                    return true;
-            }
-
-        return false;
-
+    void updateBoard(const Card& move){
+        Card c = board[move.CORD_X][move.CORD_Y];
+        c.SHOWING = true;
     }
 
     void displayBoard() {

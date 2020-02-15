@@ -1,16 +1,28 @@
 #include "Board.cpp"
-#include <iostream>
+#include "Player.cpp"
 
 int main() {
     Board Game;
+    Player p1;
 
-//    for (int i=0; i < 100; ++i){
-//        std::cout << Board::getRandom(13) << std::endl;
-//    }
-
+    p1.displayMessage("Welcome to the game of Memory!");
     Game.setBoard();
     Game.displayBoard();
-    std::cout << std::endl;
+
+    // Get the user to flip 1 card.
+    Card moveA = p1.getMove();
+    Game.updateBoard(moveA);
+    Game.displayBoard();
+
+    // Get the user to flip another.
+    Card moveB = p1.getMove();
+    Game.updateBoard(moveA);
+    Game.displayBoard();
+    
+    // Then check compare the two moves.
+    Game.checkMoves(moveA, moveB);
+
+
     Game.revealBoard();
 
     return 0;

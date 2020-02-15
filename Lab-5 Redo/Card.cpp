@@ -14,10 +14,4 @@ struct Card {
     char CARD_BACK = '#';
     bool SHOWING = false;
 
-//    // Constructor will always help initialize a new card as "face down" for convenience.
-//    Card(){
-//        CARD_BACK = '#';
-//        SHOWING = false;
-//    }
-
 };
