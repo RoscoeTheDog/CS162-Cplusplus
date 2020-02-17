@@ -1,3 +1,0 @@
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lecture 6 Notes/cmake-build-debug/CMakeFiles/Lecture_6_Notes.dir
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lecture 6 Notes/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lecture 6 Notes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
