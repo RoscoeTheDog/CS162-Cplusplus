@@ -29,13 +29,14 @@ int Triangle::getC(){
 }
 
 bool Triangle::isEquilaterial() {
-    return C == B and C == A;
+    return (A == B and
+            A == C);
 }
 
 bool Triangle::isIsosceles() {
-    return (A == B and A == C) or
-           (B == A and B == C) or
-           (C == A and C == B);
+    return (A == B or
+            A == C or
+            B == C);
 }
 
 bool Triangle::isScalene() {

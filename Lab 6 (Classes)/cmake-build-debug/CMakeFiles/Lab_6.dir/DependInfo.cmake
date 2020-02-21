@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6/Triangle.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/Triangle.cpp.obj"
-  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6/cmake-build-debug/CMakeFiles/Lab_6.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6 (Classes)/Triangle.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6 (Classes)/cmake-build-debug/CMakeFiles/Lab_6.dir/Triangle.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6 (Classes)/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab 6 (Classes)/cmake-build-debug/CMakeFiles/Lab_6.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
