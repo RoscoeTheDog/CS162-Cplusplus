@@ -43,10 +43,10 @@ RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3 (Recursive Palindrum Validator)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3 (Recursive Palindrum Validator)\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Lab_3.dir/all:
 	$(MAKE) -f CMakeFiles\Lab_3.dir\build.make CMakeFiles/Lab_3.dir/depend
 	$(MAKE) -f CMakeFiles\Lab_3.dir\build.make CMakeFiles/Lab_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Lab_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3 (Recursive Palindrum Validator)\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Lab_3"
 .PHONY : CMakeFiles/Lab_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3 (Recursive Palindrum Validator)\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-3 (Recursive Palindrum Validator)\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Lab_3.dir/rule
 
 # Convenience name for target.

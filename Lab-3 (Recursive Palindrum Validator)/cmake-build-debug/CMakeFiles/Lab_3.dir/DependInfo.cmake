@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-3/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-3/cmake-build-debug/CMakeFiles/Lab_3.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-3 (Recursive Palindrum Validator)/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-3 (Recursive Palindrum Validator)/cmake-build-debug/CMakeFiles/Lab_3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
