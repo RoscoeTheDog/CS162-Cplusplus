@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include "person.h"
 
 #ifndef LAB_7_CLASS_COMPOSITING_CREDITCARD_H
 #define LAB_7_CLASS_COMPOSITING_CREDITCARD_H
@@ -14,26 +15,27 @@ private:
     std::string first;
     std::string last;
     std::string address;
-    std::string cardNumber;
-    double long creditLimit;
-    double long balance;
+    int cardNumber;
+    double creditLimit;
+    double balance;
+    Person cardHolder;
 
 public:
-    CreditCard(std::string first, std::string last, std::string address, std::string cardNumber, unsigned long long creditLimit);
+    CreditCard(std::string first, std::string last, std::string address, int cardNumber, double creditLimit);
 
-    double long getBalance();
+    double getBalance();
 
-    std::string getCardNumber();
+    int getCardNumber();
 
     std::string getOwnerName();
 
-    std::string getOwnerAddress();
+    std::string getAddress();
 
-    bool payBalance(unsigned long long value);
+    bool payBalance(double value);
 
-    bool makeCharge(unsigned long long value);
+    bool makeCharge(double value);
 
-    void setCreditLimit(unsigned long long value);
+    void setCreditLimit(long double value);
 
 };
 

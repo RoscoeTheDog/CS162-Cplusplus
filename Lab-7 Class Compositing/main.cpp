@@ -4,8 +4,8 @@
 
 // uncomment PERSON_TEST to test your person
 // uncomment CC_TEST to test your credit card
-//#define PERSON_TEST
-//#define CC_TEST
+#define PERSON_TEST
+#define CC_TEST
 
 #ifdef CC_TEST
 #include "creditcard.h"
@@ -16,6 +16,8 @@
 #endif // PERSON_TEST
 
 //#define
+
+using namespace std;
 
 int main() {
 #ifdef PERSON_TEST

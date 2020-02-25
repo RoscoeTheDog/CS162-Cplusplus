@@ -19,15 +19,15 @@ public:
 
     explicit Person(std::string first = "", std::string last = "", std::string address = "");
 
-    void setFirst(std::string first);
+    void setFirstName(std::string first);
 
-    void setLast(std::string last);
+    void setLastName(std::string last);
 
     void setAddress(std::string address);
 
-    std::string getFirst();
+    std::string getFirstName();
 
-    std::string getLast();
+    std::string getLastName();
 
     std::string getAddress();
 

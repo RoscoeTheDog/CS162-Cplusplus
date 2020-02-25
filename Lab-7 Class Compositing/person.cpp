@@ -12,11 +12,11 @@ Person::Person(std::string first, std::string last, std::string address) {
     this->address = std::move(address);
 }
 
-void Person::setFirst(std::string first) {
+void Person::setFirstName(std::string first) {
     this->first = std::move(first);
 }
 
-void Person::setLast(std::string last) {
+void Person::setLastName(std::string last) {
     this->last = std::move(last);
 }
 
@@ -24,11 +24,11 @@ void Person::setAddress(std::string address) {
     this->address = std::move(address);
 }
 
-std::string Person::getFirst() {
+std::string Person::getFirstName() {
     return this->first;
 }
 
-std::string Person::getLast() {
+std::string Person::getLastName() {
     return this->last;
 }
 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/creditcard.cpp
+creditcard.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/creditcard.h
+utility
+-
+person.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/person.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/creditcard.h
+iostream
+-
+string
+-
+person.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/person.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/main.cpp
+iostream
+-
+iostream
+-
+creditcard.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/creditcard.h
+person.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/person.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-7 Class Compositing/person.h
+iostream
+-
+string
+-
+
