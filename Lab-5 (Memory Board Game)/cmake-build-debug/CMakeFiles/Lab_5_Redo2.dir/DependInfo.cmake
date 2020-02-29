@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/Board.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/Board.cpp.obj"
-  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/Player.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/Player.cpp.obj"
-  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/Board.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/Board.cpp.obj"
+  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/Player.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/Player.cpp.obj"
+  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-5 (Memory Board Game)/cmake-build-debug/CMakeFiles/Lab_5_Redo2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

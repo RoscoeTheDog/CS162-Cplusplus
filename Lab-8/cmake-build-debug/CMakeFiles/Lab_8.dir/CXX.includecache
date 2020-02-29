@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/car.cpp
+car.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/car.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/car.h
+iostream
+-
+utility
+-
+

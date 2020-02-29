@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 (Memory Board Game)"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 (Memory Board Game)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 (Memory Board Game)\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 (Memory Board Game)\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Lab_5_Redo2.dir/all:
 	$(MAKE) -f CMakeFiles\Lab_5_Redo2.dir\build.make CMakeFiles/Lab_5_Redo2.dir/depend
 	$(MAKE) -f CMakeFiles\Lab_5_Redo2.dir\build.make CMakeFiles/Lab_5_Redo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target Lab_5_Redo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target Lab_5_Redo2"
 .PHONY : CMakeFiles/Lab_5_Redo2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab_5_Redo2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab_5_Redo2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-5 (Memory Board Game)\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Lab_5_Redo2.dir/rule
 
 # Convenience name for target.
