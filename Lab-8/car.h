@@ -24,9 +24,10 @@ public:
     // Because ostream is a private class that owns the "<<" we are trying to use,
     // we need to declare it as a friend to overload it.
     friend
-    std::ostream &operator<<(std::ostream out, Car c);
+    std::ostream &operator<<(std::ostream &out, Car &c);
 
-    bool operator==(Car c2);
+    friend
+    bool operator==(Car c1, Car c2);
 
     void setMake(std::string str);
 

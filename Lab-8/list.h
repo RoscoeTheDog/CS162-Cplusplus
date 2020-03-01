@@ -2,6 +2,7 @@
 // Created by Admin on 2/26/2020.
 //
 #include <utility>
+#include <sstream>
 
 #include "car.h"
 
@@ -32,11 +33,15 @@ public:
         }
     }
 
-    void newLink();
+    Link * newLink();
 
     void addCar(std::string make, std::string color, int year);
 
     bool findCar(std::string make, std::string color, int year);
+
+    Car * removeHead();
+
+    std::string displayList();
 
 };
 

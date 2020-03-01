@@ -19,8 +19,8 @@ std::string Car::getColor() { return this->color; }
 
 int Car::getYear() { return this->year; }
 
-std::ostream &operator<<(std::ostream out, Car c) {
-    out << c.getMake() << c.getColor() << c.getYear();
+std::ostream &operator<<(std::ostream &out, Car &c) {
+    out << c.getYear() << " " << c.getColor() << " " << c.getMake();
     return out;
 }
 

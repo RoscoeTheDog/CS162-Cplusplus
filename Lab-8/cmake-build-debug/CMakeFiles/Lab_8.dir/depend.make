@@ -4,7 +4,9 @@
 CMakeFiles/Lab_8.dir/car.cpp.obj: ../car.cpp
 CMakeFiles/Lab_8.dir/car.cpp.obj: ../car.h
 
+CMakeFiles/Lab_8.dir/list.cpp.obj: ../car.h
 CMakeFiles/Lab_8.dir/list.cpp.obj: ../list.cpp
+CMakeFiles/Lab_8.dir/list.cpp.obj: ../list.h
 
 CMakeFiles/Lab_8.dir/main.cpp.obj: ../car.h
 CMakeFiles/Lab_8.dir/main.cpp.obj: ../list.h

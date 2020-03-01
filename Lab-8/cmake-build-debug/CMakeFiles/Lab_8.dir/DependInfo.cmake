@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/car.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/car.cpp.obj"
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/list.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/list.cpp.obj"
-  "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/main.cpp" "C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/main.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/car.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/car.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/list.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/list.cpp.obj"
+  "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/main.cpp" "C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-8/cmake-build-debug/CMakeFiles/Lab_8.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
