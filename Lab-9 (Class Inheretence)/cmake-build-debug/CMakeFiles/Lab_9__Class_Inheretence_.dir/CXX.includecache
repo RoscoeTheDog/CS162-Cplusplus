@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/instructor.h
+person.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/person.h
+string
+-
+utility
+-
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+cstdlib
+-
+iomanip
+-
+time.h
+-
+instructor.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/instructor.h
+student.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/student.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/person.h
+string
+-
+utility
+-
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/student.cpp
+student.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/student.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/student.h
+person.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/person.h
+string
+-
+utility
+-
+

@@ -1,3 +1,0 @@
-C:/Users/Admin/Documents/Github/C++/CS162C+/fps game/cmake-build-debug/CMakeFiles/fps_game.dir
-C:/Users/Admin/Documents/Github/C++/CS162C+/fps game/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Documents/Github/C++/CS162C+/fps game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

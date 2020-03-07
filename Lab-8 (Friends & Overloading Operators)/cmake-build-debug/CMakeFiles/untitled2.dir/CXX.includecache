@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/car.cpp
+car.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/car.h
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/car.h
+iostream
+-
+utility
+-
+ostream
+-
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/list.cpp
+list.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/list.h
+utility
+-
+
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/list.h
+utility
+-
+sstream
+-
+car.h
+C:/Users/Admin/Documents/GitHub/C++/CS162C-/untitled2/car.h
+
