@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/BlackJackHand.h
+PlayingCard.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCard.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCard.h
+string
+-
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCardDeck.h
+PlayingCard.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCard.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/dealer.cpp
+dealer.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/dealer.h
+string.h
+-
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/dealer.h
+PlayingCardDeck.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCardDeck.h
+player.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/player.h
+
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/player.h
+string
+-
+PlayingCard.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/PlayingCard.h
+BlackJackHand.h
+C:/Users/Admin/Documents/Github/C++/CS162C+/Lab-9 (Inheretence & Black Jack Game)/BlackJackHand.h
+

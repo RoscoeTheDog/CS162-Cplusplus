@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inhereten
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,60 +176,6 @@ BlackJackHand.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.s
 .PHONY : BlackJackHand.cpp.s
 
-DealerTest.obj: DealerTest.cpp.obj
-
-.PHONY : DealerTest.obj
-
-# target to build an object file
-DealerTest.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj
-.PHONY : DealerTest.cpp.obj
-
-DealerTest.i: DealerTest.cpp.i
-
-.PHONY : DealerTest.i
-
-# target to preprocess a source file
-DealerTest.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.i
-.PHONY : DealerTest.cpp.i
-
-DealerTest.s: DealerTest.cpp.s
-
-.PHONY : DealerTest.s
-
-# target to generate assembly for a file
-DealerTest.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.s
-.PHONY : DealerTest.cpp.s
-
-PlayerTest.obj: PlayerTest.cpp.obj
-
-.PHONY : PlayerTest.obj
-
-# target to build an object file
-PlayerTest.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj
-.PHONY : PlayerTest.cpp.obj
-
-PlayerTest.i: PlayerTest.cpp.i
-
-.PHONY : PlayerTest.i
-
-# target to preprocess a source file
-PlayerTest.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.i
-.PHONY : PlayerTest.cpp.i
-
-PlayerTest.s: PlayerTest.cpp.s
-
-.PHONY : PlayerTest.s
-
-# target to generate assembly for a file
-PlayerTest.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.s
-.PHONY : PlayerTest.cpp.s
-
 PlayingCard.obj: PlayingCard.cpp.obj
 
 .PHONY : PlayingCard.obj
@@ -311,33 +257,6 @@ dealer.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.s
 .PHONY : dealer.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\build.make CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 player.obj: player.cpp.obj
 
 .PHONY : player.obj
@@ -380,12 +299,6 @@ help:
 	@echo ... BlackJackHand.obj
 	@echo ... BlackJackHand.i
 	@echo ... BlackJackHand.s
-	@echo ... DealerTest.obj
-	@echo ... DealerTest.i
-	@echo ... DealerTest.s
-	@echo ... PlayerTest.obj
-	@echo ... PlayerTest.i
-	@echo ... PlayerTest.s
 	@echo ... PlayingCard.obj
 	@echo ... PlayingCard.i
 	@echo ... PlayingCard.s
@@ -395,9 +308,6 @@ help:
 	@echo ... dealer.obj
 	@echo ... dealer.i
 	@echo ... dealer.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... player.obj
 	@echo ... player.i
 	@echo ... player.s

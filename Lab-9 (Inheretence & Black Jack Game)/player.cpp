@@ -27,7 +27,7 @@ int Player::getHighScore() {
 int Player::getScore() {
     if (getHighScore() > 21)
         return getLowScore();
-    getHighScore();
+    return getHighScore();
 }
 
 bool Player::busted() {
@@ -51,7 +51,7 @@ int Player::getStake() {
 }
 
 bool Player::makeBet(int bet) {
-    if (stake < bet) {
+    if (stake > bet) {
         this->bet = bet;
         return true;
     }

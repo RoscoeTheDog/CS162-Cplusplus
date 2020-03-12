@@ -1,7 +1,7 @@
 
 #include <iostream>
-#include "Player.h"
-#include "Dealer.h"
+#include "player.h"
+#include "dealer.h"
 
 //#define TEST_HAND_METHODS
 #define TEST_PLAYER_METHODS
@@ -10,11 +10,11 @@ using namespace std;
 
 int main() {
 
-  // Create a Blackjack hand object
-  Player myHand;
-    
+    // Create a Blackjack hand object
+    Player myHand;
+
 #ifdef TEST_HAND_METHODS
-    
+
     cout << "This tests the methods from the hand, see hand test code" << endl;  // arrays of values and suits for normal cards
     char values[] = {'A','2','3','4','5','6','7','8','9','T','J','Q','K'};
     char suits[] = {'C','H','D','S'};
@@ -53,48 +53,39 @@ int main() {
     }
 
   } // end for
-    
+
 #endif // TEST_HAND_METHODS
-    
+
 #ifdef TEST_PLAYER_METHODS
     cout << "\n\nThis tests the player methods of setting stake and making a bet" << endl;
 
     myHand.setStake(100);
     cout << "Stake should be 100, stake is " << myHand.getStake() << endl;
     cout << "\nNow trying to bet more than stake: ";
-    if ( myHand.makeBet(200) )
-    {
+    if (myHand.makeBet(200)) {
         cout << " error in checking bet limit\n";
-    }
-    else
-    {
+    } else {
         cout << "caught invalid bet\n";
     }
     cout << "\nNow making a bet of 50: ";
-    if (myHand.makeBet(50) )
-    {
+    if (myHand.makeBet(50)) {
         cout << " allowed legal bet for 50 \n";
-    }
-    else
-    {
+    } else {
         cout << " did not allow legal bet \n";
     }
 
     myHand.won();
     cout << "\nAfter winning stake should be 150, is: " << myHand.getStake() << endl;
-    
+
     cout << "\nNow making a bet of 20: ";
-    if (myHand.makeBet(20) )
-    {
+    if (myHand.makeBet(20)) {
         cout << " allowed legal bet for 20 \n";
-    }
-    else
-    {
+    } else {
         cout << " did not allow legal bet \n";
     }
     myHand.lost();
     cout << "\nAfter losing stake should be 130, is: " << myHand.getStake() << endl;
-    
+
 #endif // TEST_PLAYER_METHODS
 
 }

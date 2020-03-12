@@ -4,20 +4,23 @@
 
 #ifndef LAB_9__INHERETENCE___BLACK_JACK_GAME__PLAYER_H
 #define LAB_9__INHERETENCE___BLACK_JACK_GAME__PLAYER_H
+
 #include <string>
 #include "PlayingCard.h"
 #include "BlackJackHand.h"
-class Player  {
+
+class Player {
 private:
     int stake;
     int bet;
-    BlackJackHand * hand = new BlackJackHand;
+protected:
+    BlackJackHand *hand = new BlackJackHand;
 public:
     Player(int stake = 0, int bet = 0) : stake(stake), bet(bet) {};
 
     ~Player();
 
-    bool takeCard(PlayingCard * c);
+    bool takeCard(PlayingCard *c);
 
     std::string showHand();
 
@@ -42,8 +45,6 @@ public:
     void won();
 
     void lost();
-
-
 
 };
 

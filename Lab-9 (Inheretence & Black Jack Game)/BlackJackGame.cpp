@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <cstdlib>
 #include <limits>
@@ -18,7 +16,6 @@ void showTable(Dealer &dealer, Player &player);
 void showFullTable(Dealer &dealer, Player &player);
 
 bool getResponse(string question);
-
 
 int main() {
     // minimun deck before reshuffling

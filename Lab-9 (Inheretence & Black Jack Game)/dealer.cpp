@@ -15,17 +15,15 @@ Dealer::~Dealer() {
 
 std::string Dealer::showHand() {
     std::string temp;
-
-    for (int i = 0; i < hand->getCardCount(); ++i) {
-        if (i)
-            temp += hand->hand[i]->getCardCode();
-        temp += "";
-    }
-
+    temp = hand->getAllCardCodes();
+    temp = "XX " + temp.substr(3, temp.back());
     return temp;
 }
 
 std::string Dealer::fullHand() {
+    std::string temp;
+    temp = hand->getAllCardCodes();
+    return temp;
 }
 
 PlayingCard *Dealer::dealCard() {

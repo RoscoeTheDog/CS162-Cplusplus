@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/depend.make
@@ -56,152 +56,107 @@ include CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\main.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\main.cpp"
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\main.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\main.cpp.i
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\main.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\main.cpp.s
-
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\player.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\player.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\player.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\player.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\player.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\player.cpp.s
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj: ../dealer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\dealer.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\dealer.cpp.s
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj: ../BlackJackHand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackHand.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackHand.cpp.s
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj: ../PlayingCard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCard.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCard.cpp.s
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj: ../PlayingCardDeck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.s
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj: ../DealerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\DealerTest.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\DealerTest.cpp"
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\DealerTest.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\DealerTest.cpp.i
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\DealerTest.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\DealerTest.cpp.s
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj: ../PlayerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayerTest.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayerTest.cpp"
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayerTest.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayerTest.cpp.i
-
-CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\PlayerTest.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayerTest.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\PlayingCardDeck.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\PlayingCardDeck.cpp.s
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/flags.make
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj: ../BlackJackGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp"
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp" > CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.i
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\BlackJackGame.cpp" -o CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\BlackJackGame.cpp.s
 
 # Object files for target Lab_9__Inheretence___Black_Jack_Game_
 Lab_9__Inheretence___Black_Jack_Game__OBJECTS = \
-"CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj" \
-"CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj" \
-"CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj" \
 "CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj"
 
 # External object files for target Lab_9__Inheretence___Black_Jack_Game_
 Lab_9__Inheretence___Black_Jack_Game__EXTERNAL_OBJECTS =
 
-Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/main.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/player.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/dealer.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackHand.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCard.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayingCardDeck.cpp.obj
-Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/DealerTest.cpp.obj
-Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/PlayerTest.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/BlackJackGame.cpp.obj
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/build.make
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/linklibs.rsp
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/objects1.rsp
 Lab_9__Inheretence___Black_Jack_Game_.exe: CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Lab_9__Inheretence___Black_Jack_Game_.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Lab_9__Inheretence___Black_Jack_Game_.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,6 +169,6 @@ CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/clean:
 .PHONY : CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/clean
 
 CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-9 (Inheretence & Black Jack Game)\cmake-build-debug\CMakeFiles\Lab_9__Inheretence___Black_Jack_Game_.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Lab_9__Inheretence___Black_Jack_Game_.dir/depend
 

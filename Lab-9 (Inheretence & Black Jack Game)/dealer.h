@@ -8,9 +8,9 @@
 #include "PlayingCardDeck.h"
 #include "player.h"
 
-class Dealer : Player {
+class Dealer : public Player {
 private:
-    PlayingCardDeck *theDeck;
+    PlayingCardDeck *theDeck = new PlayingCardDeck;
 public:
     Dealer(int numShuffles = 0);
 
