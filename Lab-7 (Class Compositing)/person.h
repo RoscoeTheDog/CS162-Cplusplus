@@ -1,8 +1,6 @@
 //
 // Created by Admin on 2/21/2020.
 //
-
-#include <iostream>
 #include <string>
 
 #ifndef LAB_7_CLASS_COMPOSITING_PERSON_H

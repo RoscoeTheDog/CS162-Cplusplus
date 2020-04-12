@@ -65,4 +65,3 @@ void Player::won() {
 void Player::lost() {
     this->stake -= this->bet;
 }
-

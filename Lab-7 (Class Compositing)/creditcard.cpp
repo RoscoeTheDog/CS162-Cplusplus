@@ -4,9 +4,6 @@
 
 #include "creditcard.h"
 
-#include <utility>
-#include "person.h"
-
 CreditCard::CreditCard(std::string first, std::string last, std::string address, int cardNumber,
                        double creditLimit) {
 
@@ -27,11 +24,11 @@ int CreditCard::getCardNumber() {
 }
 
 std::string CreditCard::getOwnerName() {
-    return this->first + this->last;
+    return cardHolder.getFirstName() + cardHolder.getLastName();
 }
 
 std::string CreditCard::getAddress() {
-    return this->address;
+    return cardHolder.getAddress();
 }
 
 bool CreditCard::payBalance(double value) {
@@ -59,5 +56,12 @@ void CreditCard::setCreditLimit(long double value) {
     // Only set new credit limit if it is not negative.
     if (value > 0)
         this->creditLimit = value;
+}
+
+
+CreditCard::CreditCard() {
+    cardNumber = 0;
+    creditLimit = 0;
+    balance = 0;
 }
 

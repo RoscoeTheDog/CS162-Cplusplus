@@ -1,9 +1,6 @@
 //
 // Created by Admin on 2/21/2020.
 //
-
-#include <iostream>
-#include <string>
 #include "person.h"
 
 #ifndef LAB_7_CLASS_COMPOSITING_CREDITCARD_H
@@ -12,15 +9,16 @@
 
 class CreditCard {
 private:
-    std::string first;
-    std::string last;
-    std::string address;
     int cardNumber;
     double creditLimit;
     double balance;
     Person cardHolder;
 
 public:
+
+    // Added default constructor. Definition sets members to 0.
+    CreditCard();
+
     CreditCard(std::string first, std::string last, std::string address, int cardNumber, double creditLimit);
 
     double getBalance();

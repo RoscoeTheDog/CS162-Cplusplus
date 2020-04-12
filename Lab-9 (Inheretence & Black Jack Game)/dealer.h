@@ -10,9 +10,9 @@
 
 class Dealer : public Player {
 private:
-    PlayingCardDeck *theDeck = new PlayingCardDeck;
+    PlayingCardDeck *theDeck;
 public:
-    Dealer(int numShuffles = 0);
+    explicit Dealer(int numShuffles = 0);
 
     ~Dealer();
 

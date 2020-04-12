@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5233.144\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing"
+CMAKE_SOURCE_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab_7_Class_Compositing.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/Lab_7_Class_Compositing.dir/flags.make
 
 CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.obj: CMakeFiles/Lab_7_Class_Compositing.dir/flags.make
 CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\main.cpp"
 
 CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\main.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\main.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.i
 
 CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_7_Class_Compositing.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\main.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\main.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\main.cpp.s
 
 CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.obj: CMakeFiles/Lab_7_Class_Compositing.dir/flags.make
 CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.obj: ../creditcard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\creditcard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\creditcard.cpp"
 
 CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\creditcard.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\creditcard.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.i
 
 CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_7_Class_Compositing.dir/creditcard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\creditcard.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\creditcard.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\creditcard.cpp.s
 
 CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.obj: CMakeFiles/Lab_7_Class_Compositing.dir/flags.make
 CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.obj: ../person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.obj -c "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\person.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.obj -c "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\person.cpp"
 
 CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\person.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\person.cpp" > CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.i
 
 CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_7_Class_Compositing.dir/person.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\person.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\person.cpp" -o CMakeFiles\Lab_7_Class_Compositing.dir\person.cpp.s
 
 # Object files for target Lab_7_Class_Compositing
 Lab_7_Class_Compositing_OBJECTS = \
@@ -111,7 +111,7 @@ Lab_7_Class_Compositing.exe: CMakeFiles/Lab_7_Class_Compositing.dir/build.make
 Lab_7_Class_Compositing.exe: CMakeFiles/Lab_7_Class_Compositing.dir/linklibs.rsp
 Lab_7_Class_Compositing.exe: CMakeFiles/Lab_7_Class_Compositing.dir/objects1.rsp
 Lab_7_Class_Compositing.exe: CMakeFiles/Lab_7_Class_Compositing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Lab_7_Class_Compositing.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Lab_7_Class_Compositing.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab_7_Class_Compositing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/Lab_7_Class_Compositing.dir/clean:
 .PHONY : CMakeFiles/Lab_7_Class_Compositing.dir/clean
 
 CMakeFiles/Lab_7_Class_Compositing.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug" "C:\Users\Admin\Documents\GitHub\C++\CS162C-\Lab-7 Class Compositing\cmake-build-debug\CMakeFiles\Lab_7_Class_Compositing.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug" "C:\Users\Admin\Documents\Github\C++\CS162C+\Lab-7 (Class Compositing)\cmake-build-debug\CMakeFiles\Lab_7_Class_Compositing.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Lab_7_Class_Compositing.dir/depend
 

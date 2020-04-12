@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include <iostream>
-
 // uncomment PERSON_TEST to test your person
 // uncomment CC_TEST to test your credit card
 #define PERSON_TEST

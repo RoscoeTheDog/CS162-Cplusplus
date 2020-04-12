@@ -14,9 +14,9 @@ private:
     int stake;
     int bet;
 protected:
-    BlackJackHand *hand = new BlackJackHand;
+    BlackJackHand *hand;
 public:
-    Player(int stake = 0, int bet = 0) : stake(stake), bet(bet) {};
+    explicit Player(int stake = 0, int bet = 0) : stake(stake), bet(bet), hand(new BlackJackHand) {};
 
     ~Player();
 

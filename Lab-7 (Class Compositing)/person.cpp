@@ -4,8 +4,6 @@
 
 #include "person.h"
 
-#include <utility>
-
 Person::Person(std::string first, std::string last, std::string address) {
     this->first = std::move(first);
     this->last = std::move(last);

@@ -6,6 +6,7 @@
 #include <string.h>
 
 Dealer::Dealer(int numShuffles) {
+    theDeck = new PlayingCardDeck;
     theDeck->shuffle(numShuffles);
 }
 

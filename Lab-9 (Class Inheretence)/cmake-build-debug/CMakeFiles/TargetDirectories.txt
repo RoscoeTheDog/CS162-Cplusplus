@@ -1,3 +1,0 @@
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/cmake-build-debug/CMakeFiles/Lab_9__Class_Inheretence_.dir
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Documents/GitHub/C++/CS162C-/Lab-9 (Class Inheretence)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
